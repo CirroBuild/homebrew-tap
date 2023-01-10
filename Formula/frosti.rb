@@ -11,6 +11,7 @@ class Frosti < Formula
     if Hardware::CPU.intel?
       url "https://github.com/CirroBuild/FoG/releases/download/v0preview/Frosti-v0preview-x64.tar.gz"
       sha256 "1d4e38b33497e9b8c29b71ac3bf7c402eb8d495d345d0e384c492a4f5175489b"
+    end
   end
 
   def install
