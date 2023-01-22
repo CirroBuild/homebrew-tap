@@ -5,12 +5,12 @@ class Frosti < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/CirroBuild/FoG/releases/download/v0.5.preview/Frosti-v0.5.preview-x64.tar.gz"
-      sha256 "c959d4bdd16b66afe52b3f70f797c37dad058e65be2b6b7e494a163789832240"
+      url "https://github.com/CirroBuild/FoG/releases/download/v0.6.preview/Frosti-v0.6.preview-x64.tar.gz"
+      sha256 "fca963a25b0a0890871cdf08236cab9315ffcd4f494e3affa2a7bec7726d7459"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/CirroBuild/FoG/releases/download/v0.5.preview/Frosti-v0.5.preview-arm64.tar.gz"
-      sha256 "d3ad724bf8d24642c698ea6a73888b193989df1135c6ceb9cc664f4f9f089d65"
+      url "https://github.com/CirroBuild/FoG/releases/download/v0.6.preview/Frosti-v0.6.preview-arm64.tar.gz"
+      sha256 "c3ca3926b025e77d8edf520fa8dc0f7059d8fb4451cf9e82772788f7a41156ec"
     end
   end
 
