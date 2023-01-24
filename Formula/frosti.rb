@@ -1,6 +1,7 @@
 class Frosti < Formula
   desc "Frosti Test"
-  homepage "https://fearofgod.com"
+  homepage "https://frostibuild.com"
+  version "1.0.preview"
   license "MPL-2.0"
 
   on_macos do
