@@ -1,17 +1,17 @@
 class Frosti < Formula
   desc "Frosti Test"
   homepage "https://frostibuild.com"
-  version "3.7.preview"
+  version "3.8.preview"
   license "MPL-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/CirroBuild/FoG/releases/download/v3.7.preview/Frosti-v3.7.preview-mac-arm64.tar.gz"
-      sha256 "84b78e98e15f5162f20d4f96e027d39071c8a1ba4a2fada5494f7c6b7514c1eb"
+      url "https://github.com/CirroBuild/FoG/releases/download/v3.8.preview/Frosti-v3.8.preview-mac-arm64.tar.gz"
+      sha256 "a66a362910337a6f6f8ae257b52b775bd38b6eb7d1c8a18a3868218e971170ee"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/CirroBuild/FoG/releases/download/v3.7.preview/Frosti-v3.7.preview-mac-x64.tar.gz"
-      sha256 "d176edece4c62861b93634a64fd6af127ae7c49860b2f3270552d02cf02e9bbd"
+      url "https://github.com/CirroBuild/FoG/releases/download/v3.8.preview/Frosti-v3.8.preview-mac-x64.tar.gz"
+      sha256 "f99b4d18207ec4f783be1b2b61460a9f2a87df7c50b580f9728cdd02800e838a"
     end
   end
 
